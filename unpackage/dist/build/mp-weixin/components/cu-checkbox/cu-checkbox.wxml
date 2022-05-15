@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['handleClick',['$event']]]]]}}" class="cu-checkbox data-v-9f461de4" style="{{'color:'+(isChecked?'#fff':'#d3d3d3')+';'+('background-color:'+(isChecked?color:'#fff')+';')+('border-radius:'+(circle?'50%':'10rpx')+';')}}" bindtap="__e"><text class="cuIcon-check data-v-9f461de4"></text></view>

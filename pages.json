@@ -1,0 +1,114 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+		}
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},{
+			"path": "pages/home/banner-ad",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#fff"
+	},
+	"optimization":{"subPackages":true},
+	"subPackages": [{
+		"root": "sub_pages",
+		"pages": [
+			{
+				"path": "cake/cake",
+				"style": {
+					"enablePullDownRefresh": true,
+					"navigationBarTitleText": "",
+					"navigationStyle": "custom"
+				}
+			}, {
+				"path": "userinfo/userinfo",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			}, {
+				"path": "detail/detail",
+				"style": {
+					"enablePullDownRefresh": false,
+					"navigationBarTitleText": "",
+					"navigationStyle": "custom"
+				}
+			},{
+				"path": "location/location",
+				"style": {
+					"navigationBarTitleText": "",
+					"navigationStyle": "custom"
+				}
+			}, {
+				"path": "cart/cart",
+				"style": {
+					"enablePullDownRefresh": false,
+					"navigationBarTitleText": "",
+					"navigationStyle": "custom",
+					"disableScroll": false
+				}
+			}, {
+				"path": "regist/regist",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			}, {
+				"path": "login/login",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			}, {
+				"path": "sale/sale",
+				"style": {
+					"enablePullDownRefresh": true,
+					"navigationBarTitleText": "",
+					"navigationStyle": "custom"
+				}
+			}, {
+				"path": "order/order",
+				"style": {
+					"navigationBarTitleText": "",
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "address/address",
+				"style": {
+					"navigationBarTitleText": "",
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "address-detail/address-detail",
+				"style": {
+					"navigationBarTitleText": "",
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			}
+		]
+	}]
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "nav-head": "/components/nav-head/nav-head",
+    "address-info": "/sub_pages/address/addresinfo/addressinfo"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "nav-head": "/components/nav-head/nav-head",
+    "u--form": "/node-modules/uview-ui/components/u--form/u--form",
+    "u-form-item": "/node-modules/uview-ui/components/u-form-item/u-form-item",
+    "u--input": "/node-modules/uview-ui/components/u--input/u--input",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-picker": "/node-modules/uview-ui/components/u-picker/u-picker",
+    "cu-checkbox": "/components/cu-checkbox/cu-checkbox"
+  }
+}

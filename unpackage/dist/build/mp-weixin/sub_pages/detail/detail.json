@@ -1,0 +1,14 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "nav-head": "/components/nav-head/nav-head",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-popup": "/node-modules/uview-ui/components/u-popup/u-popup",
+    "u-line": "/node-modules/uview-ui/components/u-line/u-line",
+    "not-login": "/components/not-login/not-login",
+    "basic-info": "/sub_pages/detail/basicinfo/basicinfo",
+    "appraise": "/sub_pages/detail/appraise/appraise"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "nav-head": "/components/nav-head/nav-head",
+    "cu-checkbox": "/components/cu-checkbox/cu-checkbox",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-picker": "/node-modules/uview-ui/components/u-picker/u-picker"
+  }
+}

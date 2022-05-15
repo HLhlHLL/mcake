@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "cu-checkbox": "/components/cu-checkbox/cu-checkbox",
+    "u-line": "/node-modules/uview-ui/components/u-line/u-line"
+  },
+  "component": true
+}

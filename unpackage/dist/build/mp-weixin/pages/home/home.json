@@ -1,0 +1,12 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "nav-head": "/components/nav-head/nav-head",
+    "good-item": "/components/good-item/good-item",
+    "good-info": "/components/good-info/good-info",
+    "not-login": "/components/not-login/not-login",
+    "category": "/pages/home/category/category"
+  }
+}

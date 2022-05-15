@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/home/banner-ad"
+  ],
+  "subPackages": [
+    {
+      "root": "sub_pages",
+      "pages": [
+        "cake/cake",
+        "userinfo/userinfo",
+        "detail/detail",
+        "location/location",
+        "cart/cart",
+        "regist/regist",
+        "login/login",
+        "sale/sale",
+        "order/order",
+        "address/address",
+        "address-detail/address-detail"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#fff"
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

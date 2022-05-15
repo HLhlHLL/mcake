@@ -1,0 +1,16 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "disableScroll": false,
+  "usingComponents": {
+    "nav-head": "/components/nav-head/nav-head",
+    "u-swipe-action": "/node-modules/uview-ui/components/u-swipe-action/u-swipe-action",
+    "u-swipe-action-item": "/node-modules/uview-ui/components/u-swipe-action-item/u-swipe-action-item",
+    "cu-checkbox": "/components/cu-checkbox/cu-checkbox",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "good-info": "/components/good-info/good-info",
+    "good-item": "/components/good-item/good-item",
+    "not-login": "/components/not-login/not-login"
+  }
+}

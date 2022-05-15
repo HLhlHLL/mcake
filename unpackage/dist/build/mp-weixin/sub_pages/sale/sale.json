@@ -1,0 +1,9 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "nav-head": "/components/nav-head/nav-head",
+    "not-login": "/components/not-login/not-login"
+  }
+}
